@@ -26,6 +26,16 @@ public class LP1 {
         System.out.println(persona);
         persona.sueldo();
         
+        videoComunicacion plataforma = new videoComunicacion();
+        plataforma.setNombre("Meet");
+        plataforma.setCantidadUsuarios(100);
+        plataforma.setTiempo(2000);
+        plataforma.setNivel("Libre");
+        plataforma.setEstrellas(5);
+        
+        System.out.println(plataforma);
+        plataforma.Calidad();
+        
     }
     
 }
